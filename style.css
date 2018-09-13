@@ -20,11 +20,15 @@ body { font-family:"Proxima Nova W01"; font-weight:300; font-size:1em;  overflow
 
 #wrapper {
 	width: 100%;
-	background-color: black;
+	background-color: white;
 }
 
 
+
 /* navbar and banner  */
+.nav {
+	background-color: black;
+}
 .nav h1 {
 	color: blue;
 }
@@ -40,7 +44,7 @@ body { font-family:"Proxima Nova W01"; font-weight:300; font-size:1em;  overflow
 }
 .headerbackground{
  width: auto;
- height: 40vh;
+ height: 20em;
  background-image: url('i/ccp-banner-home.jpg');
  background-size: cover;
  background-position: top;
@@ -50,9 +54,12 @@ body { font-family:"Proxima Nova W01"; font-weight:300; font-size:1em;  overflow
 	color: white;
 	font-family: Neue Helvetica W01;
 	font-weight: 400;
+	/* centers in the middle of div */
 	position: absolute;	
-	top: 46%;
-	transform: translate(40%, 5%);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+	transform: translate(-50%, -50%) 
 }
 span {
 	font-weight: 100;
@@ -60,9 +67,70 @@ span {
 
 
 
+/* context div  */
+.context {
+	background-color: white;
+	color: black;
+	height: 32em;
+	position: relative;
+
+}
+.text {
+	background-color: white;
+	position: absolute;	
+	height: 15em;
+    top: 44%;
+    left: 50%;
+	margin-right: -50%;
+
+	transform: translate(-50%, -50%) 
+
+}
+.text h3 {
+	font-family: Neue Helvetica W01;
+	font-weight: 200;
+	margin-left: 2em;
+	margin-bottom: .75em;
+}
+.text p {
+	font-family: Neue Helvetica W01;
+	font-weight: 100;
+	font-size: .7em;
+	line-height: 1.5em;
+	width: 85%;
+	margin-left: 3em;
+}
+
+.text2 {
+	background-image: url('i/body_bg_mirror.png');
+	background-size: cover;
+	height: 14em;
+	background-position: bottom;
+	position: relative;	
+    top: 82%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	margin-bottom:200px;
+}
+.text2 p {
+	font-family: Neue Helvetica W01;
+	font-weight: 100;
+	font-size: .5em;
+	line-height: 1.5em;
+	width: 50%;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+}
 
 
-
+/*  unique section  */
+.unique {
+	margin-top: 2em;
+	background-color: gray;
+	height: 15.5em;
+}
 
 
 
