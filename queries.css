@@ -1,0 +1,43 @@
+/* tablet */
+@media only screen and (min-width: 768px) {
+  #menuToggle {
+    display: none!important;
+  }
+  .menu {
+      display: inline-block;
+      position: absolute;
+      top: 15px;
+      right: 20px;
+  }
+  .menu li {
+    list-style-type: none;
+    margin-right: 1em;
+  }
+
+  .context {
+    display: inline;
+    position: relative;
+  }
+  .text {
+      display: inline-block;
+      width: 80%;
+    top: 50%;
+      position: absolute;   
+  }
+  .text2 {
+      width: 40%;
+      display: inline-block;
+      margin: 20% 0 0 21%;
+  }
+  .text2 p {
+      width: 70%;
+  }
+}
+
+/* big tablet/desktop */
+@media only screen and (min-width: 1024px) {
+
+
+}
+
+

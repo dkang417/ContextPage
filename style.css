@@ -36,6 +36,9 @@ body { font-family:"Proxima Nova W01"; font-weight:300; font-size:1em;  overflow
 	display: inline-block;
 	width: 40%;
 }
+.menu {
+	display: none;
+}
 .nav_left img {
 	width: 10em;
 	padding-left: 2em;
