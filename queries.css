@@ -20,23 +20,43 @@
   }
   .text {
       display: inline-block;
-      width: 80%;
-    top: 50%;
-      position: absolute;   
+      width: 70%;
+        top: 30%;
+      position: absolute;
+      margin-top: -11em;  
+      margin-left: -3em; 
+  
   }
   .text2 {
-      width: 40%;
+      width: 41%;
       display: inline-block;
-      margin: 20% 0 0 21%;
+      margin: 15% 4em 0 21%;
+      
   }
   .text2 p {
       width: 70%;
+      margin-top: -4em;
+      margin-left: -1em;
   }
+  .unique {
+      background-color: gray;
+      margin-top: -5em;
+  }
+  .unique p {
+    padding: 0 4em;
+  }
+  hr {
+display: none;
+}
 }
 
 /* big tablet/desktop */
 @media only screen and (min-width: 1024px) {
-
+    .unique p {
+        padding: 0 8em;
+        margin: 0 auto;
+    }
+   
 
 }
 
