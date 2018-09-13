@@ -1,67 +1,69 @@
 /* tablet */
 @media only screen and (min-width: 768px) {
-  #menuToggle {
-    display: none!important;
-  }
-  .menu {
-      display: inline-block;
-      position: absolute;
-      top: 15px;
-      right: 20px;
-  }
-  .menu li {
-    list-style-type: none;
-    margin-right: 1em;
-  }
 
-  .context {
-    display: inline;
-    position: relative;
-  }
-  .text {
-      display: inline-block;
-      width: 70%;
-        top: 30%;
-      position: absolute;
-      margin-top: -11em;  
-      margin-left: -3em; 
-  
-  }
-  .text2 {
-      width: 41%;
-      display: inline-block;
-      margin: 15% 4em 0 21%;
-      
-  }
-  .text2 p {
-      width: 70%;
-      margin-top: -4em;
-      margin-left: -1em;
-  }
-  .unique {
-      background-color: gray;
-      margin-top: -5em;
-  }
-  .unique p {
-    padding: 0 4em;
-  }
-  hr {
-display: none;
-}
-  /* update footer next  */
-  .footerlogo{
-	width: 19em;
-	position: absolute;
-	top: 50%;
-	left: 15%;
-	margin-right: -30%;
-	transform: translate(-60%,-50%);
+    #menuToggle {
+        display: none!important;
+     }
+    .menu {
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
     }
+    .menu li {
+        list-style-type: none;
+        margin-right: 1em;
+    }
+
+    .context {
+        display: inline;
+        position: relative;
+    }
+    .text {
+        display: inline-block;
+        width: 70%;
+        top: 30%;
+        position: absolute;
+        margin-top: -11em;  
+        margin-left: -3em; 
+  
+    }
+    .text2 {
+        width: 41%;
+        display: inline-block;
+        margin: 15% 4em 0 21%;  
+    }
+    .text2 p {
+        width: 70%;
+        margin-top: -4em;
+        margin-left: -1em;
+    }
+    .unique {
+        background-color: gray;
+        margin-top: -5em;
+    }
+    .unique p {
+        padding: 0 4em;
+    }
+
+    hr {
+        display: none;
+    }
+ 
+    .footerlogo{
+	    width: 19em;
+	    position: absolute;
+        top: 50%;
+        left: 15%;
+        margin-right: -30%;
+        transform: translate(-60%,-50%);
+    }
+
     .social {
         position: absolute;
-	    top: 90%;
-	    right: 190%;
-	    margin-right: 50%;
+        top: 90%;
+        right: 190%;
+        margin-right: 50%;
         transform: translate(190%,-50%);
         width: 15em;
     }
@@ -90,12 +92,12 @@ display: none;
 
 /* big tablet/desktop */
 @media only screen and (min-width: 1024px) {
+
     .unique p {
         padding: 0 8em;
         margin: 0 auto;
     }
    
-
     .footerlogo{
         width: 19em;
         position: absolute;
@@ -138,5 +140,3 @@ display: none;
     }
 
 }
-
-
